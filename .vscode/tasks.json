@@ -6,9 +6,11 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "--std=c++11",  //使用c++17标准编译
+                "${file}", //当前文件名
+                "-o", //对象名，不进行编译优化
+                "${fileDirname}/${fileBasenameNoExtension}",  //当前文件名（去掉扩展名）
+                "-pthread"
             ],
             "options": {
                 "cwd": "${fileDirname}"
