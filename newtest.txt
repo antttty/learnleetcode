@@ -1,8 +1,5 @@
 this is local add!
 this is remote add!
 
-<<<<<<< HEAD
 this is local modify 2!
-=======
 this is remote add 2!
->>>>>>> e4dc2c74bc9e1fe2e78a0866ab1a7c628259fa08
