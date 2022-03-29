@@ -4,5 +4,6 @@
 //给定一个数 n 其阶乘结尾有多少个0
 int preimageSizeFZF(int k) {
     int ret = 0;
+    ret++;
     return ret;
 }
