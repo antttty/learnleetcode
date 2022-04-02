@@ -1,4 +1,5 @@
 int main()
 {
-return 0;
+int ret = 0;
+return ret;
 }
